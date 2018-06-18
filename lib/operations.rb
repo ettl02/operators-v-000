@@ -1,4 +1,5 @@
 def unsafe?(speed)
+	speed == "#{{speed}}"
 	if speed == <30 || speed == >60
 			true
 end
